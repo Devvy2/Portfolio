@@ -1,0 +1,23 @@
+.navbar-body {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+
+.nav-btns {
+  display: flex;
+  font-size: 25px;
+  gap: 10px;
+}
+
+.home-btn,
+.about-btn,
+.skills-btn,
+.projects-btn,
+.contact-btn {
+  font-size: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
