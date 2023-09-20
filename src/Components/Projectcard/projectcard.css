@@ -1,0 +1,39 @@
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8em;
+}
+
+.card-info {
+  max-width: 30%;
+}
+
+.card-info button {
+  margin-top: 1em;
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: 1px solid #ccd6f6;
+  background: none;
+  cursor: pointer;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 2em;
+}
+
+.card-img-body {
+  max-width: 40%;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.github-btn,
+.project-btn {
+  color: #ccd6f6;
+}

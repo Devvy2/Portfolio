@@ -9,6 +9,7 @@
 
 .skills-body {
   align-items: center;
+  color: #ccd6f6;
 }
 
 .skills-img-body {
@@ -21,7 +22,6 @@
 }
 
 .skills-title {
-  color: #ccd6f6;
   border-bottom: 3px solid #9b3762;
   width: min-content;
 }
