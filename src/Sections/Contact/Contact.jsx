@@ -21,11 +21,7 @@ export function ContactForm() {
     <div className="contact-section">
       <div className="contact-form">
         <h2 className="contact-title">Contact me</h2>
-        <form
-          action="https://formsubmit.co/jsorenesh04.kodehode@gmail.com"
-          method="POST"
-          onSubmit={handleSubmit}
-        >
+        <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Name:</label>
             <input
