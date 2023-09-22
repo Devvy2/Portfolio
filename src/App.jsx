@@ -10,11 +10,19 @@ function App() {
   return (
     <div>
       <LayoutBase>
-        <HomeSection />
-        <About />
-        <Skills />
-        <Pokedex />
-        <TodoList />
+        <div id="home">
+          <HomeSection />
+        </div>
+        <div id="about">
+          <About />
+        </div>
+        <div id="skills">
+          <Skills />
+        </div>
+        <div id="projects">
+          <Pokedex />
+          <TodoList />
+        </div>
       </LayoutBase>
     </div>
   );

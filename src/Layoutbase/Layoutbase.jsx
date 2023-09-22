@@ -1,4 +1,5 @@
 import { Navbar } from "../Components/Navbar/Navbar";
+import "./Layoutbase.css";
 
 /**
  *
@@ -16,7 +17,7 @@ export function LayoutBase(properties) {
 
       <main>{children}</main>
 
-      <footer>By Joakim S</footer>
+      <footer>Made by Joakim Sørenes</footer>
     </div>
   );
 }

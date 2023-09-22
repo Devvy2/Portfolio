@@ -25,3 +25,16 @@
   padding: 5px 10px;
   color: #ccd6f6;
 }
+
+nav ul li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
