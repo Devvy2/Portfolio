@@ -5,7 +5,7 @@ export function TodoList() {
   return (
     <section className="todolist-section">
       <ProjectCard
-        imgUrl="public/images/Todolist.png"
+        imgUrl="/images/Todolist.png"
         title="Todo list"
         description="Introducing the JS TaskMaster Your Customized JavaScript Todo List!"
         toolTitle="Developer Tools"
