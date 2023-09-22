@@ -1,11 +1,16 @@
+/* Navbar styling */
 .navbar-body {
   height: 50px;
   width: 100%;
   position: fixed;
   display: flex;
   justify-content: end;
+  background-color: rgba(10, 25, 47, 0.8);
+  backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease;
 }
 
+/* Navbar buttons */
 .nav-btns {
   display: flex;
   font-size: 25px;
@@ -24,17 +29,29 @@
   cursor: pointer;
   padding: 5px 10px;
   color: #ccd6f6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.761);
 }
 
-nav ul li {
+/* Remove list-style for the navbar */
+nav ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
+/* Navbar alignment */
 nav {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 nav ul li a {
   text-decoration: none;
+}
+
+/* Navbar links */
+nav ul li a:hover {
+  border-bottom: 3px solid #9b3762;
+  color: #9b3762;
 }

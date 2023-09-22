@@ -18,7 +18,7 @@ export function Navbar() {
   return (
     <nav className="navbar-body">
       <ul className="nav-btns">
-        <li>
+        <li className="nav-item">
           <NavLink
             to="/"
             className="home-btn"
@@ -30,7 +30,7 @@ export function Navbar() {
             Home
           </NavLink>
         </li>
-        <li>
+        <li className="nav-item">
           <NavLink
             to="/about"
             className="about-btn"
@@ -42,7 +42,7 @@ export function Navbar() {
             About
           </NavLink>
         </li>
-        <li>
+        <li className="nav-item">
           <NavLink
             to="/skills"
             className="skills-btn"
@@ -54,7 +54,7 @@ export function Navbar() {
             Skills
           </NavLink>
         </li>
-        <li>
+        <li className="nav-item">
           <NavLink
             to="/projects"
             className="projects-btn"
@@ -66,13 +66,13 @@ export function Navbar() {
             Projects
           </NavLink>
         </li>
-        <li>
+        <li className="nav-item">
           <NavLink
-            to="/contact"
+            to="/contact-form"
             className="contact-btn"
             onClick={() => {
-              navigate("/contact");
-              scrollToSection("contact");
+              navigate("/contact-form");
+              scrollToSection("contact-form");
             }}
           >
             Contact

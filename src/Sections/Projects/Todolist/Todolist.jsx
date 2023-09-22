@@ -12,6 +12,8 @@ export function TodoList() {
         tool={["Html", "CSS", "Javascript", "Github Pages"]}
         Github="Github"
         Project="View Project"
+        linkGithub="https://github.com/Devvy2/Todo-list"
+        linkProject="https://devvy2.github.io/Todo-list/"
       />
     </section>
   );

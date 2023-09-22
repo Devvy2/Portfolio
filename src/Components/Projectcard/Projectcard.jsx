@@ -10,12 +10,31 @@ import "./projectcard.css";
  *   toolTitle: string,
  *   tool: string[],
  *   Github: string,
- *   Project: string
+ *   Project: string,
+ *   linkGithub: string,
+ *   linkProject: string
  * }} properties
  */
 export function ProjectCard(properties) {
-  const { title, imgUrl, description, toolTitle, tool, Github, Project } =
-    properties;
+  const {
+    title,
+    imgUrl,
+    description,
+    toolTitle,
+    tool,
+    Github,
+    Project,
+    linkGithub,
+    linkProject,
+  } = properties;
+
+  const openGithubLinkInNewTab = () => {
+    window.open(linkGithub, "_blank");
+  };
+
+  const openProjectLinkInNewTab = () => {
+    window.open(linkProject, "_blank");
+  };
 
   return (
     <div className="card-body">
@@ -31,8 +50,12 @@ export function ProjectCard(properties) {
           ))}
         </ul>
         <div className="card-buttons">
-          <button className="github-btn">{Github}</button>
-          <button className="project-btn">{Project}</button>
+          <button className="github-btn" onClick={openGithubLinkInNewTab}>
+            {Github}
+          </button>
+          <button className="project-btn" onClick={openProjectLinkInNewTab}>
+            {Project}
+          </button>
         </div>
       </div>
 

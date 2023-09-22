@@ -10,9 +10,11 @@ export function Pokedex() {
         title="Pokedex"
         description="Pokédex Project, an interactive hub for exploring the diverse world of Pokémon. Dive into the various types of Pokémon."
         toolTitle="Developer Tools"
-        tool={["Html", "CSS", "Javascript", "Github Pages"]}
+        tool={["Html", "CSS", "Javascript", "Netlify"]}
         Github="Github"
         Project="View Project"
+        linkGithub="https://github.com/Devvy2/APIoppgave"
+        linkProject="https://fluffy-peony-a9818c.netlify.app/"
       />
     </section>
   );
