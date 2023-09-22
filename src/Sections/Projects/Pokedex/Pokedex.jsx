@@ -6,7 +6,7 @@ export function Pokedex() {
     <section className="Pokedex-section">
       <h1 className="projects-title">Projects</h1>
       <ProjectCard
-        imgUrl="src/assets/images/Pokedex.png"
+        imgUrl="public/images/Pokedex.png"
         title="Pokedex"
         description="Pokédex Project, an interactive hub for exploring the diverse world of Pokémon. Dive into the various types of Pokémon."
         toolTitle="Developer Tools"
