@@ -1,7 +1,7 @@
 import "./App.css";
 import { LayoutBase } from "./Layoutbase/Layoutbase";
 import { About } from "./Sections/About/About";
-import { ContactForm } from "./Sections/Contact/Contact";
+import { ContactUs } from "./Sections/Contact/Contact";
 import { HomeSection } from "./Sections/Home/Home";
 import { Pokedex } from "./Sections/Projects/Pokedex/Pokedex";
 import { TodoList } from "./Sections/Projects/Todolist/Todolist";
@@ -25,7 +25,7 @@ function App() {
           <TodoList />
         </div>
         <div id="contact-form">
-          <ContactForm />
+          <ContactUs />
         </div>
       </LayoutBase>
     </div>
