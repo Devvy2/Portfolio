@@ -46,3 +46,44 @@ textarea {
 .contact-btn-send:hover {
   background-color: #0056b3;
 }
+
+/* Styles for the overlay */
+.overlay-popup {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 200px; /* Set the width of the popup */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px; /* Add some padding for spacing */
+}
+
+/* Styles for the popup content */
+.popup-content {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 10px; /* Add padding to the content */
+}
+
+.close-btn-body {
+  display: flex;
+  justify-content: end;
+}
+
+.close-popup {
+  cursor: pointer;
+  font-size: 18px;
+  color: #777;
+}
+
+.popup-message.success {
+  color: green;
+}
+
+.popup-message.error {
+  color: red;
+}
