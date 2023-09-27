@@ -17,6 +17,7 @@ export function Navbar() {
 
   return (
     <nav className="navbar-body">
+      <div className="nav-logo"></div>
       <ul className="nav-btns">
         <li className="nav-item">
           <NavLink
