@@ -49,3 +49,28 @@
   margin-top: 1em;
   text-decoration: none;
 }
+
+.view-projects-btn:hover {
+  --angle: 0deg;
+  border-image-source: linear-gradient(var(--angle), #9b3762, #6739b1);
+  border-image-slice: 1;
+  transform: scale(1.02);
+  animation: 5s rotate linear infinite;
+}
+
+/* Click effect */
+.view-projects-btn:active {
+  transform: scale(0.95);
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}

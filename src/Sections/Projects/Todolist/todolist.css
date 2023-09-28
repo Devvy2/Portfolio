@@ -6,3 +6,15 @@
   flex-direction: column;
   color: #ccd6f6; /* #8892b0 */
 }
+
+.todolist-section button:hover {
+  background: linear-gradient(#0a192f, #0a192f) padding-box,
+    linear-gradient(to right, #9b3762, #6739b1) border-box;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  transform: scale(1.1);
+}
+
+.todolist-section button:active {
+  transform: scale(0.95);
+}

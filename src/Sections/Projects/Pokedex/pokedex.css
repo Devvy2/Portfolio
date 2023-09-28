@@ -13,3 +13,15 @@
   border-bottom: 3px solid #9b3762;
   width: min-content;
 }
+
+.Pokedex-section button:hover {
+  background: linear-gradient(#1d3557, #1d3557) padding-box,
+    linear-gradient(to right, #9b3762, #6739b1) border-box;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  transform: scale(1.1);
+}
+
+.Pokedex-section button:active {
+  transform: scale(0.95);
+}

@@ -3,7 +3,7 @@ import "./skills.css";
 export function Skills() {
   return (
     <div className="skills-section">
-      <div className="skills-body">
+      <div className="skills-container">
         <h1 className="skills-title">Skills</h1>
         <div className="skills-img-body">
           <div className="skills-img-row1">
