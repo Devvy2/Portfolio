@@ -3,21 +3,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #1d3557;
+  padding: 20px;
 }
 
 .about-content {
-  flex-direction: column;
+  max-width: 800px;
 }
 
 .about-title {
   color: #ccd6f6;
   border-bottom: 3px solid #9b3762;
   width: min-content;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .about-p {
-  font-size: 20px;
+  font-size: 18px;
   color: #ccd6f6;
+  line-height: 1.5;
 }

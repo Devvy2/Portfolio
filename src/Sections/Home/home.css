@@ -1,5 +1,5 @@
 .home-section-body {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: #0a192f;
   display: flex;
@@ -73,4 +73,21 @@
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
+}
+
+@media (max-width: 768px) {
+  .intro-line1 {
+    font-size: 14px;
+  }
+
+  .intro-line2,
+  .intro-line3 {
+    font-size: 25px;
+  }
+
+  .view-projects-btn {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+  }
 }

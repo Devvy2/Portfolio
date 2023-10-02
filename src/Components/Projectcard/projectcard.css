@@ -3,10 +3,7 @@
   justify-content: center;
   align-items: center;
   gap: 8em;
-}
-
-.card-info {
-  max-width: 30%;
+  margin: 3em;
 }
 
 .card-info button {
@@ -24,7 +21,11 @@
 }
 
 .card-img-body {
-  max-width: 30%;
+  max-width: 500px;
+}
+
+.card-description {
+  max-width: 300px;
 }
 
 .card-img {
@@ -36,4 +37,26 @@
 .github-btn,
 .project-btn {
   color: #ccd6f6;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    flex-direction: column;
+  }
+
+  .card-body {
+    gap: 4em;
+    margin: 3em;
+  }
+}
+
+@media (max-width: 920px) {
+  .card-body {
+    flex-direction: column;
+  }
+
+  .card-body {
+    gap: 4em;
+    margin: 3em;
+  }
 }

@@ -1,8 +1,10 @@
 import "./navbar.css";
 import { NavLink, useNavigate } from "react-router-dom";
+import { useState } from "react"; // Import useState
 
 export function Navbar() {
   const navigate = useNavigate();
+  const [menuOpen, setMenuOpen] = useState(false); // State to track menu open/close
 
   // Function to handle smooth scrolling to the target section
   const scrollToSection = (sectionId) => {
@@ -15,10 +17,20 @@ export function Navbar() {
     }
   };
 
+  // Function to toggle the menu
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <nav className="navbar-body">
+    <nav className={`navbar-body ${menuOpen ? "menu-open" : ""}`}>
       <div className="nav-logo"></div>
-      <ul className="nav-btns">
+      <button className="hamburger-menu" onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul className={`nav-btns ${menuOpen ? "show-menu" : ""}`}>
         <li className="nav-item">
           <NavLink
             to="/"
@@ -26,6 +38,7 @@ export function Navbar() {
             onClick={() => {
               navigate("/");
               scrollToSection("home");
+              toggleMenu(); // Close menu when a link is clicked
             }}
           >
             Home
@@ -38,6 +51,7 @@ export function Navbar() {
             onClick={() => {
               navigate("/about");
               scrollToSection("about");
+              toggleMenu();
             }}
           >
             About
@@ -50,6 +64,7 @@ export function Navbar() {
             onClick={() => {
               navigate("/skills");
               scrollToSection("skills");
+              toggleMenu();
             }}
           >
             Skills
@@ -62,6 +77,7 @@ export function Navbar() {
             onClick={() => {
               navigate("/projects");
               scrollToSection("projects");
+              toggleMenu();
             }}
           >
             Projects
@@ -74,6 +90,7 @@ export function Navbar() {
             onClick={() => {
               navigate("/contact-form");
               scrollToSection("contact-form");
+              toggleMenu();
             }}
           >
             Contact

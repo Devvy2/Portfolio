@@ -41,6 +41,7 @@ export const ContactUs = () => {
 
   return (
     <div className="contact-section">
+      <h1 className="contact-title">Contact me</h1>
       <form className="contact-form" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" required />
