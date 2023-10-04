@@ -18,10 +18,12 @@
   width: min-content;
   font-size: 24px;
   margin-bottom: 10px;
+  inline-size: fit-content;
 }
 
 .about-p {
   font-size: 18px;
   color: #ccd6f6;
   line-height: 1.5;
+  white-space: break-spaces;
 }

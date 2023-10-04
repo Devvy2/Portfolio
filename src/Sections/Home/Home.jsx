@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import "./home.css";
+import { useTranslation } from "react-i18next";
 
 export function HomeSection() {
-  const navigate = useNavigate(); // Get the navigate function
+  const { t } = useTranslation("global");
+  const navigate = useNavigate();
 
   const scrollToSection = (sectionId) => {
     // Define your scrollToSection function
@@ -19,9 +21,9 @@ export function HomeSection() {
   return (
     <div className="home-section-body">
       <div className="home-content">
-        <h3 className="intro-line1">Hi, my name is</h3>
-        <h1 className="intro-line2">Joakim Sørenes</h1>
-        <h1 className="intro-line3">I&apos;m a Frontend Developer</h1>
+        <h3 className="intro-line1">{t("Hello")}</h3>
+        <h1 className="intro-line2">{t("Name")}</h1>
+        <h1 className="intro-line3">{t("Profession")}</h1>
         <Link
           to="/projects"
           className="view-projects-btn"
@@ -30,7 +32,7 @@ export function HomeSection() {
             scrollToSection("projects");
           }}
         >
-          View Projects
+          {t("Header-btn")}
         </Link>
       </div>
     </div>

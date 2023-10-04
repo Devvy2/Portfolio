@@ -1,0 +1,32 @@
+{
+  "Nav-home": "Hjem",
+  "Nav-about": "Om meg",
+  "Nav-skills": "Ferdigheter",
+  "Nav-projects": "Prosjekter",
+  "Nav-contact": "Kontakt",
+
+  "Hello": "Hei, mitt navn er",
+  "Name": "Joakim Sørenes",
+  "Profession": "Jeg er Frontend Utvikler",
+  "Header-btn": "Se Prosjekter",
+
+  "About": "Om meg",
+  "Description": "Mitt navn er Joakim Sørenes, jeg er en Frontend-utvikler basert i Haugesund.\nDe siste seks månedene har jeg deltatt på kurset kalt Kodehode, hvor jeg har tilegnet meg ferdigheter i HTML, CSS, JavaScript, React og Figma. Dette finner jeg virkelig interessant.\n\nJeg er lidenskapelig opptatt av musikk og ny teknologi, hvordan det fungerer og hvordan man kan optimalisere det.\n\nHar du et prosjekt i tankene for meg? Kontakt meg, og la oss lage noe flott sammen.",
+
+  "Skills": "Ferdigheter",
+
+  "Section-project-title": "Prosjekter",
+
+  "Pokedex-description": "Pokédex-prosjektet, en interaktiv portal for utforsking av den mangfoldige verdenen av Pokémons. Dykk ned i de ulike typene av Pokémons",
+  "Developer-tools-title": "Utviklerverktøy",
+
+  "Projects-btn": "Se Prosjektet",
+
+  "Todo-list-title": "Gjøremåls Liste",
+  "Todolist-description": "Introduserer JS TaskMaster, Din tilpassede JavaScript gjøremåls liste!",
+
+  "Contact-title": "Kontakt meg!",
+  "Contact-name": "Navn",
+  "Contact-email": "Email",
+  "Contact-message": "Melding"
+}

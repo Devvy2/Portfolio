@@ -1,12 +1,14 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
+import { useTranslation } from "react-i18next";
 
 export const ContactUs = () => {
   const form = useRef();
   const [isPopupVisible, setPopupVisible] = useState(false);
   const [popupMessage, setPopupMessage] = useState("");
   const [isSuccess, setIsSuccess] = useState(null);
+  const { t } = useTranslation("global");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -41,13 +43,13 @@ export const ContactUs = () => {
 
   return (
     <div className="contact-section">
-      <h1 className="contact-title">Contact me</h1>
+      <h1 className="contact-title">{t("Contact-title")}</h1>
       <form className="contact-form" ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
+        <label>{t("Contact-name")}</label>
         <input type="text" name="user_name" required />
-        <label>Email</label>
+        <label>{t("Contact-email")}</label>
         <input type="email" name="user_email" required />
-        <label>Message</label>
+        <label>{t("Contact-message")}</label>
         <textarea name="message" required />
         <input className="contact-btn-send" type="submit" value="Send" />
       </form>

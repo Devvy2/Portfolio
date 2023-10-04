@@ -1,10 +1,12 @@
 import "./skills.css";
+import { useTranslation } from "react-i18next";
 
 export function Skills() {
+  const { t } = useTranslation("global");
   return (
     <div className="skills-section">
       <div className="skills-container">
-        <h1 className="skills-title">Skills</h1>
+        <h1 className="skills-title">{t("Skills")}</h1>
         <div className="skills-img-body">
           <div>
             <img src="/images/html 1.png" alt="" />
