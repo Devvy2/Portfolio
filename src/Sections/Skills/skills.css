@@ -34,6 +34,13 @@
   max-width: 100%;
 }
 
+.skills-img-body > div img:hover{
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+}
+
+
+
 @media (max-width: 768px) {
   .skills-img-body > div img {
     max-width: 35px;
