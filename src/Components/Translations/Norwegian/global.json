@@ -4,27 +4,19 @@
   "Nav-skills": "Ferdigheter",
   "Nav-projects": "Prosjekter",
   "Nav-contact": "Kontakt",
-
   "Hello": "Hei, mitt navn er",
   "Name": "Joakim Sørenes",
   "Profession": "Jeg er Frontend Utvikler",
   "Header-btn": "Se Prosjekter",
-
   "About": "Om meg",
-  "Description": "Mitt navn er Joakim Sørenes, jeg er en Frontend-utvikler basert i Haugesund.\nDe siste seks månedene har jeg deltatt på kurset kalt Kodehode, hvor jeg har tilegnet meg ferdigheter i HTML, CSS, JavaScript, React og Figma. Dette finner jeg virkelig interessant.\n\nJeg er lidenskapelig opptatt av musikk og ny teknologi, hvordan det fungerer og hvordan man kan optimalisere det.\n\nHar du et prosjekt i tankene for meg? Kontakt meg, og la oss lage noe flott sammen.",
-
+  "Description": "Mitt navn er Joakim Sørenes og er en Frontend Utvikler basert i Haugesund. I løpet av det siste halvåret har jeg gjennomført teoridelen på seks måneder av det ettårige intensive frontend-fokuserte kurset, som bygger på bootcamp modellen. I løpet av denne tiden har jeg fått inngående kunnskap om programmeringsspråk og verktøy inkluderer HTML, CSS, Javascript, React, Git/Github, Figma. I tillegg har jeg fullført kursets valgfrie backend modul som har gitt meg fullstack kompetanse med søkelys på Node/Express, SQL og MongoDB.\n\nNår jeg ikke er opptatt med koding liker jeg og tilbringe tiden med venner, enten det er å utforkse byen eller jobbe med biler.\n\nHar du et prosjekt i tankene for meg? kontakt meg, og la oss lage noe flott sammen.",
   "Skills": "Ferdigheter",
-
   "Section-project-title": "Prosjekter",
-
   "Pokedex-description": "Pokédex-prosjektet, en interaktiv portal for utforsking av den mangfoldige verdenen av Pokémons. Dykk ned i de ulike typene av Pokémons",
   "Developer-tools-title": "Utviklerverktøy",
-
   "Projects-btn": "Se Prosjektet",
-
   "Todo-list-title": "Gjøremåls Liste",
   "Todolist-description": "Introduserer JS TaskMaster, Din tilpassede JavaScript gjøremåls liste!",
-
   "Contact-title": "Kontakt meg!",
   "Contact-name": "Navn",
   "Contact-email": "Email",

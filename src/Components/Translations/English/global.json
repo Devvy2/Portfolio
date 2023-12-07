@@ -4,28 +4,20 @@
   "Nav-skills": "Skills",
   "Nav-projects": "Projects",
   "Nav-contact": "Contact",
-
   "Hello": "Hi, my name is",
   "Name": "Joakim Sørenes",
   "Profession": "I'm a Frontend Developer",
   "Header-btn": "View Projects",
-
   "About": "About",
-  "Description": "My name is Joakim Sørenes, I'm a Frontend Developer based in Haugesund.\nThe last six months I've attended the course called Kodehode, where I gained skills in HTML, CSS, Javascript, React and Figma. Witch I find really interesting.\n\nI'm passionate about music and new technology, how it works and how to optimize it.\n\nGot a project in mind for me? contact me and let's make something great.",
-
+  "Description": "My name is Joakim Sørenes, and I'm a Frontend Developer based in Haugesund. Over the past six months, I've completed the theoretical part of a one-year intensive frontend-focused course, following the bootcamp model. During this time, I've gained extensive knowledge of programming languages and tools, including HTML, CSS, Javascript, React, Git/Github and figma. Additionally, I've finished the elective backend module of the course, providing me with fullstack knowledge, focusing on Node/Express, SQL and MongoDB.\n\nWhen I'm not busy coding, I enjoy spending time with friends, either exploring the city or working on cars.\n\nDo you have a Project in mind for me? Feel free to contact me, and let's make something great together.",
   "Skills": "Skills",
-
   "Section-project-title": "Projects",
-
   "Pokedex-title": "Pokedex",
   "Pokedex-description": "Pokédex Project, an interactive hub for exploring the diverse world of Pokémons. Dive into the various types of Pokémons.",
   "Developer-tools-title": "Developer Tools",
-
   "Projects-btn": "View Project",
-
   "Todo-list-title": "Todo List",
   "Todolist-description": "Introducing the JS TaskMaster, Your customized JavaScript Todo List!",
-
   "Contact-title": "Contact me!",
   "Contact-name": "Name",
   "Contact-email": "Email",
