@@ -57,13 +57,15 @@ export const ContactUs = () => {
         <div className="overlay-popup">
           <div className="popup-content">
             <div className="close-btn-body">
+                <p className={`popup-message ${isSuccess ? "success" : "error"}`}>
+              {popupMessage}
+            </p>
               <button className="close-popup" onClick={closePopup}>
                 &times;
               </button>
+             
             </div>
-            <p className={`popup-message ${isSuccess ? "success" : "error"}`}>
-              {popupMessage}
-            </p>
+           
           </div>
         </div>
       )}
